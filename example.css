@@ -1,0 +1,12 @@
+div {
+	padding-top: 1px;
+	margin: 5px;
+	color: #FFF;
+}
+
+/*
+
+Run:
+$ stylelint --config=index.js example.css
+
+*/

@@ -43,6 +43,9 @@
 		"hint",
 		"simple"
 	],
+	"dependencies": {
+		"stylelint-order": "^0.7.0"
+	},
 	"devDependencies": {
 		"ava": "*",
 		"stylelint": "^8.2.0",
