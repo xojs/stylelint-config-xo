@@ -78,7 +78,8 @@ module.exports = {
 				'damn',
 				'twerk',
 				'egg yolk'
-			], {
+			],
+			{
 				severity: 'warning'
 			}
 		],
@@ -142,15 +143,18 @@ module.exports = {
 		'selector-list-comma-newline-before': 'never-multi-line',
 		'selector-list-comma-space-after': 'always-single-line',
 		'selector-list-comma-space-before': 'never',
-		'rule-empty-line-before': ['always', {
-			except: [
-				'after-single-line-comment',
-				'first-nested'
-			],
-			ignore: [
-				'after-comment'
-			]
-		}],
+		'rule-empty-line-before': [
+			'always',
+			{
+				except: [
+					'after-single-line-comment',
+					'first-nested'
+				],
+				ignore: [
+					'after-comment'
+				]
+			}
+		],
 		'media-feature-colon-space-after': 'always',
 		'media-feature-colon-space-before': 'never',
 		'media-feature-name-case': 'lower',
@@ -160,15 +164,18 @@ module.exports = {
 		'media-query-list-comma-newline-after': 'always',
 		'media-query-list-comma-newline-before': 'never-multi-line',
 		'media-query-list-comma-space-before': 'never',
-		'at-rule-empty-line-before': ['always', {
-			except: [
-				'after-same-name',
-				'inside-block'
-			],
-			ignore: [
-				'after-comment'
-			]
-		}],
+		'at-rule-empty-line-before': [
+			'always',
+			{
+				except: [
+					'after-same-name',
+					'inside-block'
+				],
+				ignore: [
+					'after-comment'
+				]
+			}
+		],
 		'at-rule-name-case': 'lower',
 		'at-rule-name-newline-after': 'always-multi-line',
 		'at-rule-name-space-after': 'always-single-line',
