@@ -2,7 +2,8 @@
 
 module.exports = {
 	plugins: [
-		'stylelint-order'
+		'stylelint-order',
+		'stylelint-declaration-block-no-ignored-properties'
 	],
 	rules: {
 		'color-no-invalid-hex': true,
@@ -178,6 +179,7 @@ module.exports = {
 		'no-eol-whitespace': true,
 		'no-missing-end-of-source-newline': true,
 
+		// `stylelint-order`
 		'order/properties-order': [{
 			// Must be first
 			properties: [
@@ -495,6 +497,9 @@ module.exports = {
 				'counter-reset',
 				'counter-increment'
 			]
-		}]
+		}],
+
+		// `stylelint-declaration-block-no-ignored-properties`
+		'plugin/declaration-block-no-ignored-properties': true
 	}
 };

@@ -44,6 +44,7 @@
 		"simple"
 	],
 	"dependencies": {
+		"stylelint-declaration-block-no-ignored-properties": "^1.0.1",
 		"stylelint-order": "^0.7.0"
 	},
 	"devDependencies": {
