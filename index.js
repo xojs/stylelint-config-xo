@@ -84,7 +84,7 @@ module.exports = {
 			}
 		],
 		'max-nesting-depth': 3,
-		'color-hex-case': 'upper',
+		'color-hex-case': 'lower',
 		'color-hex-length': 'short',
 		'font-family-name-quotes': 'always-where-recommended',
 		'font-weight-notation': 'named-where-possible',
