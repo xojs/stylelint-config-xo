@@ -9,7 +9,7 @@ module.exports = {
 	rules: {
 		'color-no-invalid-hex': true,
 		'font-family-no-duplicate-names': true,
-		// 'font-family-no-missing-generic-family-keyword': true,
+		'font-family-no-missing-generic-family-keyword': true,
 		'function-calc-no-unspaced-operator': true,
 		'function-linear-gradient-no-nonstandard-direction': true,
 		'string-no-newline': true,
@@ -28,6 +28,7 @@ module.exports = {
 		'at-rule-no-unknown': true,
 		'comment-no-empty': true,
 		'no-descending-specificity': true,
+		'no-duplicate-at-import-rules': true,
 		'no-duplicate-selectors': true,
 		'no-empty-source': true,
 		'no-extra-semicolons': true,
@@ -37,7 +38,15 @@ module.exports = {
 		'function-url-no-scheme-relative': true,
 		'number-max-precision': 3,
 		'time-min-milliseconds': 100,
-		'value-no-vendor-prefix': true,
+		'value-no-vendor-prefix': [
+			true,
+			{
+				ignoreValues: [
+					'grab',
+					'grabbing'
+				]
+			}
+		],
 		'property-blacklist': [
 			'float'
 		],
