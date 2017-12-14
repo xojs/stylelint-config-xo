@@ -43,7 +43,8 @@ module.exports = {
 			{
 				ignoreValues: [
 					'grab',
-					'grabbing'
+					'grabbing',
+					'tab-size' // It's still only prefixed in Firefox
 				]
 			}
 		],
