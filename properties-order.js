@@ -8,6 +8,13 @@ module.exports = [
 		]
 	},
 	{
+		// Content
+		properties: [
+			'content',
+			'quotes'
+		]
+	},
+	{
 		// Display and box model
 		properties: [
 			'display',
@@ -303,13 +310,6 @@ module.exports = [
 			'animation-play-state',
 			'pointer-events',
 			'cursor'
-		]
-	},
-	{
-		// Content
-		properties: [
-			'content',
-			'quotes'
 		]
 	},
 	{
