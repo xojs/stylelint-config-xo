@@ -3,7 +3,9 @@
 module.exports = [
 	{
 		// Must be first
-		properties: ['all']
+		properties: [
+			'all'
+		]
 	},
 	{
 		// Display and box model
@@ -71,15 +73,33 @@ module.exports = [
 	},
 	{
 		// Positioning
-		properties: ['position', 'top', 'right', 'bottom', 'left', 'vertical-align']
+		properties: [
+			'position',
+			'top',
+			'right',
+			'bottom',
+			'left',
+			'vertical-align'
+		]
 	},
 	{
 		// Float
-		properties: ['float', 'clear']
+		properties: [
+			'float',
+			'clear'
+		]
 	},
 	{
 		// Flexbox
-		properties: ['flex', 'flex-basis', 'flex-direction', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-wrap']
+		properties: [
+			'flex',
+			'flex-basis',
+			'flex-direction',
+			'flex-flow',
+			'flex-grow',
+			'flex-shrink',
+			'flex-wrap'
+		]
 	},
 	{
 		// Grid
@@ -106,15 +126,25 @@ module.exports = [
 	},
 	{
 		// Align
-		properties: ['align-content', 'align-items', 'align-self']
+		properties: [
+			'align-content',
+			'align-items',
+			'align-self'
+		]
 	},
 	{
 		// Justify
-		properties: ['justify-content', 'justify-items', 'justify-self']
+		properties: [
+			'justify-content',
+			'justify-items',
+			'justify-self'
+		]
 	},
 	{
 		// Order
-		properties: ['order']
+		properties: [
+			'order'
+		]
 	},
 	{
 		// Columns
@@ -146,7 +176,11 @@ module.exports = [
 	},
 	{
 		// Visibility
-		properties: ['visibility', 'opacity', 'z-index']
+		properties: [
+			'visibility',
+			'opacity',
+			'z-index'
+		]
 	},
 	{
 		// Style
@@ -172,11 +206,22 @@ module.exports = [
 	},
 	{
 		// Lists
-		properties: ['list-style', 'list-style-type', 'list-style-position', 'list-style-image', 'caption-side']
+		properties: [
+			'list-style',
+			'list-style-type',
+			'list-style-position',
+			'list-style-image',
+			'caption-side'
+		]
 	},
 	{
 		// Tables
-		properties: ['table-layout', 'border-collapse', 'border-spacing', 'empty-cells']
+		properties: [
+			'table-layout',
+			'border-collapse',
+			'border-spacing',
+			'empty-cells'
+		]
 	},
 	{
 		// Font
@@ -230,7 +275,14 @@ module.exports = [
 	},
 	{
 		// Text spacing
-		properties: ['line-height', 'word-spacing', 'letter-spacing', 'white-space', 'word-break', 'word-wrap']
+		properties: [
+			'line-height',
+			'word-spacing',
+			'letter-spacing',
+			'white-space',
+			'word-break',
+			'word-wrap'
+		]
 	},
 	{
 		// Interactivity
@@ -255,10 +307,16 @@ module.exports = [
 	},
 	{
 		// Content
-		properties: ['content', 'quotes']
+		properties: [
+			'content',
+			'quotes'
+		]
 	},
 	{
 		// Counters
-		properties: ['counter-reset', 'counter-increment']
+		properties: [
+			'counter-reset',
+			'counter-increment'
+		]
 	}
 ];
