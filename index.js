@@ -1,6 +1,8 @@
 'use strict';
 const propertiesOrder = require('./properties-order');
 
+const reLowercase = /^[a-z]+(-[a-z\d]+)*$/;
+
 module.exports = {
 	plugins: [
 		'stylelint-order',
@@ -64,8 +66,8 @@ module.exports = {
 				'/all/'
 			]
 		},
-		'selector-class-pattern': /^[a-z][a-z0-9_-]+$/, // Enforces lowercase
-		'selector-id-pattern': /^[a-z][a-z0-9_-]+$/, // Enforces lowercase
+		'selector-class-pattern': reLowercase,
+		'selector-id-pattern': reLowercase,
 		'selector-max-attribute': 4,
 		'selector-max-class': 4,
 		'selector-max-compound-selectors': 4,
