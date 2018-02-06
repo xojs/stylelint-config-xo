@@ -1,5 +1,5 @@
 'use strict';
-const propertiesOrder = require('./properties-order');
+// - const propertiesOrder = require('./properties-order');
 
 const reLowercase = /^[a-z]+(-[a-z\d]+)*$/;
 
@@ -200,7 +200,8 @@ module.exports = {
 		'no-missing-end-of-source-newline': true,
 
 		// `stylelint-order`
-		'order/properties-order': propertiesOrder,
+		// Disabled for now: https://github.com/sindresorhus/stylelint-config-xo/pull/2#issuecomment-363438756
+		// 'order/properties-order': propertiesOrder,
 
 		// `stylelint-declaration-block-no-ignored-properties`
 		'plugin/declaration-block-no-ignored-properties': true
