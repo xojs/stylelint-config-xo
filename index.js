@@ -53,14 +53,16 @@ module.exports = {
 		'property-blacklist': [
 			'float'
 		],
-		'property-no-vendor-prefix': true,
+		// Disabled until https://github.com/stylelint/stylelint/issues/3007 is out
+		// Then add `appearance` to `ignoreProperties`
+		// 'property-no-vendor-prefix': true,
 		'declaration-no-important': true,
 		'declaration-property-value-blacklist': {
-			'/^border/': [
-				'/thin/', // TODO: Open issue on stylelint about allowing regex literals here
+			'/^border(?!-style)/': [
+				'/thin/', // TODO: Use regex literal here when https://github.com/stylelint/stylelint/issues/3008 is fixed
 				'/medium/',
 				'/thick/',
-				'none' // Prefer `none`
+				'none' // Prefer `0`
 			],
 			'/^transition/': [
 				'/all/'
