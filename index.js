@@ -1,7 +1,7 @@
 'use strict';
 // - const propertiesOrder = require('./properties-order');
 
-const reLowercase = /^[a-z]+(-[a-z\d]+)*$/;
+const reLowercase = /^[a-z]+(-[a-z\d]+)*$/; // eslint-disable-line unicorn/no-unsafe-regex
 
 module.exports = {
 	plugins: [
