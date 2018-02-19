@@ -53,9 +53,15 @@ module.exports = {
 		'property-blacklist': [
 			'float'
 		],
-		// Disabled until https://github.com/stylelint/stylelint/issues/3007 is out
-		// Then add `appearance` to `ignoreProperties`
-		// 'property-no-vendor-prefix': true,
+		'property-no-vendor-prefix': [
+			true,
+			{
+				ignoreProperties: [
+					'app-region', // For Electron
+					'appearance'
+				]
+			}
+		],
 		'declaration-no-important': true,
 		'declaration-property-value-blacklist': {
 			'/^border(?!-style)/': [
