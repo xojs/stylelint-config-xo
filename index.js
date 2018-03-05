@@ -83,7 +83,8 @@ module.exports = {
 		'selector-max-compound-selectors': 4,
 		'selector-max-empty-lines': 0,
 		'selector-max-universal': 1,
-		'selector-no-vendor-prefix': true,
+		// Disabled because of https://github.com/stylelint/stylelint/issues/3197
+		// 'selector-no-vendor-prefix': true,
 		'media-feature-name-blacklist': [
 			'max-width', {
 				message: 'Prefer `min-width` because mobile-first'
