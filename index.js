@@ -1,7 +1,21 @@
 'use strict';
 // - const propertiesOrder = require('./properties-order');
 
-const reLowercase = /^[a-z]+(-[a-z\d]+)*$/; // eslint-disable-line unicorn/no-unsafe-regex
+// Allows:
+// foo-bar
+// FooBar
+// foo-bar--foo-bar
+// foo-bar__foo-bar
+// FooBar--FooBar
+// FooBar__FooBar
+// FooBar--foo-bar
+// foo-bar--FooBar
+// Foo-bar
+// …
+const reLowerCaseFirstUpper = /([A-Z][a-z\d]*(-[a-z\d]+)*)/;
+const reLowerCase = /([a-z][a-z\d]*(-[a-z\d]+)*)/;
+const rePascalCase = /(([A-Z][a-zA-Z\d]+)*)/;
+const reName = new RegExp(`^(${reLowerCaseFirstUpper.source}|${reLowerCase.source}|${rePascalCase.source})((--|__)(${reLowerCase.source}|${rePascalCase.source}))*$`);
 
 module.exports = {
 	plugins: [
@@ -76,8 +90,8 @@ module.exports = {
 				'/all/'
 			]
 		},
-		'selector-class-pattern': reLowercase,
-		'selector-id-pattern': reLowercase,
+		'selector-class-pattern': reName,
+		'selector-id-pattern': reName,
 		'selector-max-attribute': 4,
 		'selector-max-class': 4,
 		'selector-max-compound-selectors': 4,
