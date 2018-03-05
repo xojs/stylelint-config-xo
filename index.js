@@ -85,11 +85,6 @@ module.exports = {
 		'selector-max-universal': 1,
 		// Disabled because of https://github.com/stylelint/stylelint/issues/3197
 		// 'selector-no-vendor-prefix': true,
-		'media-feature-name-blacklist': [
-			'max-width', {
-				message: 'Prefer `min-width` because mobile-first'
-			}
-		],
 		'media-feature-name-no-vendor-prefix': true,
 		'at-rule-no-vendor-prefix': true,
 		'comment-word-blacklist': [
