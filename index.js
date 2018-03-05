@@ -59,7 +59,8 @@ module.exports = {
 			{
 				ignoreProperties: [
 					'app-region', // For Electron
-					'appearance'
+					'appearance',
+					'mask'
 				]
 			}
 		],
