@@ -80,11 +80,11 @@ module.exports = {
 		],
 		'declaration-no-important': true,
 		'declaration-property-value-blacklist': {
-			'/^border(?!-style)/': [
+			'/^border(?!-(width|spacing))/': [
 				'/thin/', // TODO: Use regex literal here when https://github.com/stylelint/stylelint/issues/3008 is fixed
 				'/medium/',
 				'/thick/',
-				'none' // Prefer `0`
+				'0' // Prefer `none`
 			],
 			'/^transition/': [
 				'/all/'
