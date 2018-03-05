@@ -132,7 +132,6 @@ module.exports = {
 		'value-list-comma-space-after': 'always-single-line',
 		'value-list-comma-space-before': 'never',
 		'value-list-max-empty-lines': 0,
-		'custom-property-empty-line-before': 'never',
 		'property-case': 'lower',
 		'declaration-bang-space-after': 'never',
 		'declaration-bang-space-before': 'always',
