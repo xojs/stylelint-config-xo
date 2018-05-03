@@ -92,9 +92,9 @@ module.exports = {
 		},
 		'selector-class-pattern': reName,
 		'selector-id-pattern': reName,
-		'selector-max-attribute': 4,
-		'selector-max-class': 4,
-		'selector-max-compound-selectors': 4,
+		'selector-max-attribute': 8,
+		'selector-max-class': 8,
+		'selector-max-compound-selectors': 8,
 		'selector-max-empty-lines': 0,
 		'selector-max-universal': 1,
 		// Disabled because of https://github.com/stylelint/stylelint/issues/3197
@@ -115,7 +115,7 @@ module.exports = {
 				severity: 'warning'
 			}
 		],
-		'max-nesting-depth': 3,
+		'max-nesting-depth': 8,
 		'color-hex-case': 'lower',
 		'color-hex-length': 'short',
 		'font-family-name-quotes': 'always-where-recommended',
