@@ -34,7 +34,14 @@ module.exports = {
 		'property-no-unknown': true,
 		'keyframe-declaration-no-important': true,
 		'declaration-block-no-duplicate-properties': true,
-		'declaration-block-no-redundant-longhand-properties': true,
+		'declaration-block-no-redundant-longhand-properties': [
+			true,
+			{
+				ignoreShorthands: [
+					'grid-template'
+				]
+			}
+		],
 		'declaration-block-no-shorthand-property-overrides': true,
 		'block-no-empty': true,
 		'selector-pseudo-class-no-unknown': true,
