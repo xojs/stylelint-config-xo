@@ -227,6 +227,12 @@ module.exports = {
 		'no-missing-end-of-source-newline': true,
 
 		// `stylelint-order`
+		'order/order': [
+			'dollar-variables',
+			'custom-properties',
+			'declarations',
+			'rules'
+		],
 		// Disabled for now: https://github.com/sindresorhus/stylelint-config-xo/pull/2#issuecomment-363438756
 		// 'order/properties-order': propertiesOrder,
 
