@@ -60,6 +60,7 @@ module.exports = {
 		'no-unknown-animations': true,
 		'color-named': 'never',
 		'function-url-no-scheme-relative': true,
+		'keyframes-name-pattern': reLowerCase,
 		'number-max-precision': 3,
 		'time-min-milliseconds': 100,
 		'value-no-vendor-prefix': [
