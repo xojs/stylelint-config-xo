@@ -223,6 +223,7 @@ module.exports = {
 		'at-rule-semicolon-space-before': 'never',
 		'comment-whitespace-inside': 'always',
 		indentation: 'tab',
+		linebreaks: 'unix',
 		'max-empty-lines': 2,
 		'no-eol-whitespace': true,
 		'no-missing-end-of-source-newline': true,
