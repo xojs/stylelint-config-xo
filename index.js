@@ -222,7 +222,12 @@ module.exports = {
 		'at-rule-semicolon-newline-after': 'always',
 		'at-rule-semicolon-space-before': 'never',
 		'comment-whitespace-inside': 'always',
-		indentation: 'tab',
+		indentation: [
+			'tab',
+			{
+				baseIndentLevel: 1
+			}
+		],
 		linebreaks: 'unix',
 		'max-empty-lines': 2,
 		'no-eol-whitespace': true,
