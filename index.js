@@ -123,7 +123,14 @@ module.exports = {
 				severity: 'warning'
 			}
 		],
-		'max-nesting-depth': 8,
+		'max-nesting-depth': [
+			8,
+			{
+				ignore: [
+					'pseudo-classes'
+				]
+			}
+		],
 		'color-hex-case': 'lower',
 		'color-hex-length': 'short',
 		'font-family-name-quotes': 'always-where-recommended',
