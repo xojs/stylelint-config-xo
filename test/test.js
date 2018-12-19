@@ -11,7 +11,7 @@ const runStylelint = async code => {
 	return data.results;
 };
 
-test(async t => {
+test('main', async t => {
 	const results = await runStylelint(`
 		div {
 			left: .2em;

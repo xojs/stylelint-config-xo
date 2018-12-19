@@ -50,10 +50,10 @@
 	},
 	"devDependencies": {
 		"ava": "^0.25.0",
-		"stylelint": "^9.8.0",
+		"stylelint": "^9.9.0",
 		"xo": "^0.23.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=9.8.0"
+		"stylelint": ">=9.9.0"
 	}
 }

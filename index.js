@@ -105,8 +105,14 @@ module.exports = {
 		'selector-max-compound-selectors': 8,
 		'selector-max-empty-lines': 0,
 		'selector-max-universal': 1,
-		// Disabled because of https://github.com/stylelint/stylelint/issues/3197
-		// 'selector-no-vendor-prefix': true,
+		'selector-no-vendor-prefix': [
+			true,
+			{
+				ignoreSelectors: [
+					'::-webkit-input-placeholder'
+				]
+			}
+		],
 		'media-feature-name-no-vendor-prefix': true,
 		'at-rule-no-vendor-prefix': true,
 		'comment-word-blacklist': [
