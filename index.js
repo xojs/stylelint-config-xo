@@ -89,13 +89,13 @@ module.exports = {
 		'declaration-no-important': true,
 		'declaration-property-value-blacklist': {
 			'/^border(?!-(width|spacing))/': [
-				'/thin/', // TODO: Use regex literal here when https://github.com/stylelint/stylelint/issues/3008 is fixed
-				'/medium/',
-				'/thick/',
+				/thin/,
+				/medium/,
+				/thick/,
 				'0' // Prefer `none`
 			],
 			'/^transition/': [
-				'/all/'
+				/all/
 			]
 		},
 		'selector-class-pattern': reName,
@@ -117,8 +117,8 @@ module.exports = {
 		'at-rule-no-vendor-prefix': true,
 		'comment-word-blacklist': [
 			[
-				'/^TODO:/',
-				'/^FIXME:/',
+				/^TODO:/,
+				/^FIXME:/,
 				'fuck',
 				'shit',
 				'damn',
@@ -153,7 +153,12 @@ module.exports = {
 		'function-whitespace-after': 'always',
 		'number-leading-zero': 'always',
 		'number-no-trailing-zeros': true,
-		'string-quotes': ['single', {avoidEscape: false}],
+		'string-quotes': [
+			'single',
+			{
+				avoidEscape: false
+			}
+		],
 		'length-zero-no-unit': true,
 		'unit-case': 'lower',
 		'value-keyword-case': 'lower',

@@ -49,11 +49,11 @@
 		"stylelint-order": "^2.0.0"
 	},
 	"devDependencies": {
-		"ava": "^1.0.1",
-		"stylelint": "^9.9.0",
-		"xo": "^0.23.0"
+		"ava": "^1.2.1",
+		"stylelint": "^9.10.1",
+		"xo": "^0.24.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=9.9.0"
+		"stylelint": ">=9.10.1"
 	}
 }
