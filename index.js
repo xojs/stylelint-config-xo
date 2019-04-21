@@ -116,6 +116,13 @@ module.exports = {
 		],
 		'media-feature-name-no-vendor-prefix': true,
 		'at-rule-no-vendor-prefix': true,
+		'at-rule-property-requirelist': {
+			'font-face': [
+				'font-display',
+				'font-family',
+				'font-style'
+			]
+		},
 		'comment-word-blacklist': [
 			[
 				/^TODO:/,
