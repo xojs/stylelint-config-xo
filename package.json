@@ -10,7 +10,7 @@
 		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -45,15 +45,15 @@
 		"simple"
 	],
 	"dependencies": {
-		"stylelint-declaration-block-no-ignored-properties": "^1.1.0",
-		"stylelint-order": "^2.0.0"
+		"stylelint-declaration-block-no-ignored-properties": "^2.0.0",
+		"stylelint-order": "^3.0.0"
 	},
 	"devDependencies": {
-		"ava": "^1.2.1",
-		"stylelint": "^9.10.1",
+		"ava": "^1.4.1",
+		"stylelint": "^10.0.1",
 		"xo": "^0.24.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=9.10.1"
+		"stylelint": ">=10"
 	}
 }

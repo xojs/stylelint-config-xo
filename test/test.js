@@ -12,11 +12,12 @@ const runStylelint = async code => {
 };
 
 test('main', async t => {
-	const results = await runStylelint(`
-		div {
+	const results = await runStylelint(
+		`div {
 			left: .2em;
 		}
-	`);
+		`
+	);
 
-	t.is(results[0].warnings[0].rule, 'number-leading-zero');
+	t.is(results[0].warnings[1].rule, 'number-leading-zero');
 });
