@@ -44,7 +44,14 @@ module.exports = {
 			}
 		],
 		'declaration-block-no-shorthand-property-overrides': true,
-		'block-no-empty': true,
+		'block-no-empty': [
+			true,
+			{
+				ignore: [
+					'comments'
+				]
+			}
+		],
 		'selector-pseudo-class-no-unknown': true,
 		'selector-pseudo-element-no-unknown': true,
 		'selector-type-no-unknown': true,
