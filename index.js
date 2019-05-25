@@ -65,7 +65,6 @@ module.exports = {
 		'no-empty-source': true,
 		'no-extra-semicolons': true,
 		'no-invalid-double-slash-comments': true,
-		'no-unknown-animations': true,
 		'color-named': 'never',
 		'function-url-no-scheme-relative': true,
 		'keyframes-name-pattern': reLowerCase,
