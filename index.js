@@ -265,6 +265,7 @@ module.exports = {
 		'no-eol-whitespace': true,
 		'no-missing-end-of-source-newline': true,
 		'no-empty-first-line': true,
+		'unicode-bom': 'never',
 
 		// `stylelint-order`
 		'order/order': [
