@@ -4,6 +4,7 @@
 	"description": "Stylelint shareable config for XO",
 	"license": "MIT",
 	"repository": "sindresorhus/stylelint-config-xo",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
@@ -45,8 +46,8 @@
 		"simple"
 	],
 	"dependencies": {
-		"stylelint-declaration-block-no-ignored-properties": "^2.0.0",
-		"stylelint-order": "^3.0.0"
+		"stylelint-declaration-block-no-ignored-properties": "^2.2.0",
+		"stylelint-order": "^3.1.1"
 	},
 	"devDependencies": {
 		"ava": "^2.4.0",

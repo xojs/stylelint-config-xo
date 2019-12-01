@@ -26,8 +26,3 @@ Add the following to your [Stylelint config](https://stylelint.io/user-guide/con
 - [stylelint-config-xo-space](https://github.com/xojs/stylelint-config-xo-space) - Stylelint shareable config for XO with 2-space indent
 - [stylelint-config-xo-scss](https://github.com/xojs/stylelint-config-xo-scss) - Stylelint shareable config for XO with Sass support
 - [xo](https://github.com/xojs/xo) - JavaScript linter
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
