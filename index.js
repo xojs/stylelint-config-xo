@@ -58,8 +58,14 @@ module.exports = {
 		'media-feature-name-no-unknown': true,
 		'at-rule-no-unknown': true,
 		'comment-no-empty': true,
-		// Disabled because of https://github.com/stylelint/stylelint/issues/3196
-		// 'no-descending-specificity': true,
+		'no-descending-specificity': [
+			true,
+			{
+				ignore: [
+					'selectors-within-list'
+				]
+			}
+		],
 		'no-duplicate-at-import-rules': true,
 		'no-duplicate-selectors': true,
 		'no-empty-source': true,
