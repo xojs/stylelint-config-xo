@@ -5,12 +5,23 @@ import config from '..';
 const hasRule = (errors, ruleId) => errors.some(x => x.rule === ruleId);
 
 const runStylelint = async code => {
-	const data = await stylelint.lint({
+	const {results} = await stylelint.lint({
 		code,
 		config
 	});
 
-	return data.results;
+	for (const result of results) {
+		if (result.deprecations.length !== 0) {
+			throw new Error(`Deprecations:\n${result.deprecations.join('\n')}`);
+		}
+
+		if (result.invalidOptionWarnings.length !== 0) {
+			const warnings = result.invalidOptionWarnings.map(x => x.text).join('\n');
+			throw new Error(`Invalid options:\n${warnings}`);
+		}
+	}
+
+	return results;
 };
 
 test('main', async t => {
