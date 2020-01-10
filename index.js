@@ -86,9 +86,6 @@ module.exports = {
 				]
 			}
 		],
-		'property-blacklist': [
-			'float'
-		],
 		'property-no-vendor-prefix': [
 			true,
 			{
