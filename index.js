@@ -168,6 +168,9 @@ module.exports = {
 		'function-parentheses-space-inside': 'never',
 		'function-url-quotes': 'always',
 		'function-whitespace-after': 'always',
+		'function-blacklist': [
+			/^rgb/
+		],
 		'number-leading-zero': 'always',
 		'number-no-trailing-zeros': true,
 		'string-quotes': [
