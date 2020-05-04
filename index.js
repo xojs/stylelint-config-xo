@@ -161,7 +161,6 @@ module.exports = {
 		'function-comma-newline-after': 'always-multi-line',
 		'function-comma-newline-before': 'never-multi-line',
 		'function-comma-space-after': 'always-single-line',
-		'function-comma-space-before': 'never',
 		'function-max-empty-lines': 0,
 		'function-name-case': 'lower',
 		'function-parentheses-newline-inside': 'always-multi-line',
@@ -179,8 +178,7 @@ module.exports = {
 		'length-zero-no-unit': true,
 		'unit-case': 'lower',
 		'value-keyword-case': 'lower',
-		// Disabled because of https://github.com/stylelint/stylelint/issues/2906
-		// 'value-list-comma-newline-after': 'always-multi-line',
+		'value-list-comma-newline-after': 'always-multi-line',
 		'value-list-comma-newline-before': 'never-multi-line',
 		'value-list-comma-space-after': 'always-single-line',
 		'value-list-comma-space-before': 'never',
