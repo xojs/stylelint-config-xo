@@ -92,7 +92,8 @@ module.exports = {
 				ignoreProperties: [
 					'app-region', // For Electron
 					'appearance',
-					'mask'
+					'mask',
+					'tab-size'
 				]
 			}
 		],
