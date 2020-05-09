@@ -81,8 +81,7 @@ module.exports = {
 			{
 				ignoreValues: [
 					'grab',
-					'grabbing',
-					'tab-size' // It's still only prefixed in Firefox
+					'grabbing'
 				]
 			}
 		],
@@ -92,7 +91,8 @@ module.exports = {
 				ignoreProperties: [
 					'app-region', // For Electron
 					'appearance',
-					'mask'
+					'mask',
+					'tab-size' // It's still only prefixed in Firefox
 				]
 			}
 		],
