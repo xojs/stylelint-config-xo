@@ -46,15 +46,15 @@
 		"simple"
 	],
 	"dependencies": {
-		"stylelint-declaration-block-no-ignored-properties": "^2.2.0",
-		"stylelint-order": "^4.0.0"
+		"stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+		"stylelint-order": "^4.1.0"
 	},
 	"devDependencies": {
 		"ava": "^2.4.0",
-		"stylelint": "^13.3.3",
-		"xo": "^0.30.0"
+		"stylelint": "^13.5.0",
+		"xo": "^0.31.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=13"
+		"stylelint": ">=13.5.0"
 	}
 }
