@@ -72,6 +72,7 @@ module.exports = {
 		'no-extra-semicolons': true,
 		'no-invalid-double-slash-comments': true,
 		'alpha-value-notation': 'percentage',
+		'color-function-notation': 'modern',
 		'color-named': 'never',
 		'function-url-no-scheme-relative': true,
 		'keyframes-name-pattern': reLowerCase,
