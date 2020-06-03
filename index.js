@@ -244,8 +244,8 @@ module.exports = {
 			'always',
 			{
 				except: [
-					'after-same-name',
-					'inside-block'
+					'inside-block',
+					'blockless-after-blockless'
 				],
 				ignore: [
 					'after-comment'
