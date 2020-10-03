@@ -55,6 +55,6 @@
 		"xo": "^0.31.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=13.5.0"
+		"stylelint": ">=13.7.0"
 	}
 }
