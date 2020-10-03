@@ -100,7 +100,7 @@ module.exports = {
 			}
 		],
 		'declaration-no-important': true,
-		'declaration-property-value-blacklist': {
+		'declaration-property-value-disallowed-list': {
 			'/^border(?!-(width|spacing))/': [
 				/thin/,
 				/medium/,
@@ -128,14 +128,14 @@ module.exports = {
 		],
 		'media-feature-name-no-vendor-prefix': true,
 		'at-rule-no-vendor-prefix': true,
-		'at-rule-property-requirelist': {
+		'at-rule-property-required-list': {
 			'font-face': [
 				'font-display',
 				'font-family',
 				'font-style'
 			]
 		},
-		'comment-word-blacklist': [
+		'comment-word-disallowed-list': [
 			[
 				/^TODO:/,
 				/^FIXME:/,
