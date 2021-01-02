@@ -1,4 +1,4 @@
-# stylelint-config-xo [![Build Status](https://travis-ci.com/xojs/stylelint-config-xo.svg?branch=master)](https://travis-ci.com/sindresorhus/stylelint-config-xo) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+# stylelint-config-xo
 
 > [Stylelint](https://stylelint.io) shareable config for [XO](https://github.com/xojs/xo)
 
