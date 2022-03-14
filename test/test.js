@@ -1,6 +1,6 @@
-import test from 'ava';
-import stylelint from 'stylelint';
-import config from '..';
+const test = require('ava');
+const stylelint = require('stylelint');
+const config = require('..');
 
 const hasRule = (errors, ruleId) => errors.some(x => x.rule === ruleId);
 
