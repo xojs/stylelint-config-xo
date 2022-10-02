@@ -101,7 +101,7 @@ module.exports = {
 		],
 		'declaration-no-important': true,
 		'declaration-property-value-disallowed-list': {
-			'/^border(?!-(width|spacing))/': [
+			'/^border(?!-(width|spacing|radius|(top|bottom)-(left|right)-radius))/': [
 				/thin/,
 				/medium/,
 				/thick/,
