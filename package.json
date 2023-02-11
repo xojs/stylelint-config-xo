@@ -47,7 +47,7 @@
 	],
 	"dependencies": {
 		"stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-		"stylelint-order": "^5.0.0"
+		"stylelint-order": "^6.0.2"
 	},
 	"devDependencies": {
 		"ava": "^4.1.0",
@@ -55,6 +55,6 @@
 		"xo": "^0.31.0"
 	},
 	"peerDependencies": {
-		"stylelint": ">=14, >=15"
+		"stylelint": ">=14"
 	}
 }
