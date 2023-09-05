@@ -27,10 +27,11 @@ const runStylelint = async code => {
 test('main', async t => {
 	const results = await runStylelint(
 		`div {
-			left: .2em;
+			/*nospaces*/
+			left: 0.2em;
 		}
 		`
 	);
 
-	t.true(hasRule(results[0].warnings, 'number-leading-zero'));
+	t.true(hasRule(results[0].warnings, 'comment-whitespace-inside'));
 });
