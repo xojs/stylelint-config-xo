@@ -1,18 +1,16 @@
-'use strict';
-
-module.exports = [
+const config = [
 	{
 		// Must be first
 		properties: [
-			'all'
-		]
+			'all',
+		],
 	},
 	{
 		// Content
 		properties: [
 			'content',
-			'quotes'
-		]
+			'quotes',
+		],
 	},
 	{
 		// Display and box model
@@ -75,8 +73,8 @@ module.exports = [
 			'margin-block-start',
 			'margin-block-end',
 			'margin-inline-start',
-			'margin-inline-end'
-		]
+			'margin-inline-end',
+		],
 	},
 	{
 		// Positioning
@@ -86,15 +84,15 @@ module.exports = [
 			'right',
 			'bottom',
 			'left',
-			'vertical-align'
-		]
+			'vertical-align',
+		],
 	},
 	{
 		// Float
 		properties: [
 			'float',
-			'clear'
-		]
+			'clear',
+		],
 	},
 	{
 		// Flexbox
@@ -105,8 +103,8 @@ module.exports = [
 			'flex-flow',
 			'flex-grow',
 			'flex-shrink',
-			'flex-wrap'
-		]
+			'flex-wrap',
+		],
 	},
 	{
 		// Grid
@@ -128,30 +126,30 @@ module.exports = [
 			'grid-auto-flow',
 			'grid-gap',
 			'grid-row-gap',
-			'grid-column-gap'
-		]
+			'grid-column-gap',
+		],
 	},
 	{
 		// Align
 		properties: [
 			'align-content',
 			'align-items',
-			'align-self'
-		]
+			'align-self',
+		],
 	},
 	{
 		// Justify
 		properties: [
 			'justify-content',
 			'justify-items',
-			'justify-self'
-		]
+			'justify-self',
+		],
 	},
 	{
 		// Order
 		properties: [
-			'order'
-		]
+			'order',
+		],
 	},
 	{
 		// Columns
@@ -165,8 +163,8 @@ module.exports = [
 			'column-rule-color',
 			'column-span',
 			'column-count',
-			'column-width'
-		]
+			'column-width',
+		],
 	},
 	{
 		// Transform
@@ -178,16 +176,16 @@ module.exports = [
 			'transform-function',
 			'backface-visibility',
 			'perspective',
-			'perspective-origin'
-		]
+			'perspective-origin',
+		],
 	},
 	{
 		// Visibility
 		properties: [
 			'visibility',
 			'opacity',
-			'z-index'
-		]
+			'z-index',
+		],
 	},
 	{
 		// Style
@@ -208,8 +206,8 @@ module.exports = [
 			'outline-color',
 			'outline-style',
 			'outline-offset',
-			'box-shadow'
-		]
+			'box-shadow',
+		],
 	},
 	{
 		// Lists
@@ -218,8 +216,8 @@ module.exports = [
 			'list-style-type',
 			'list-style-position',
 			'list-style-image',
-			'caption-side'
-		]
+			'caption-side',
+		],
 	},
 	{
 		// Tables
@@ -227,8 +225,8 @@ module.exports = [
 			'table-layout',
 			'border-collapse',
 			'border-spacing',
-			'empty-cells'
-		]
+			'empty-cells',
+		],
 	},
 	{
 		// Font
@@ -251,8 +249,8 @@ module.exports = [
 			'font-variant-alternates',
 			'font-variant-east-asian',
 			'font-language-override',
-			'font-feature-settings'
-		]
+			'font-feature-settings',
+		],
 	},
 	{
 		// Text alignment and decoration
@@ -277,8 +275,8 @@ module.exports = [
 			'text-underline-position',
 			'text-orientation',
 			'text-shadow',
-			'text-overflow'
-		]
+			'text-overflow',
+		],
 	},
 	{
 		// Text spacing
@@ -288,8 +286,8 @@ module.exports = [
 			'letter-spacing',
 			'white-space',
 			'word-break',
-			'word-wrap'
-		]
+			'word-wrap',
+		],
 	},
 	{
 		// Interactivity
@@ -309,14 +307,16 @@ module.exports = [
 			'animation-fill-mode',
 			'animation-play-state',
 			'pointer-events',
-			'cursor'
-		]
+			'cursor',
+		],
 	},
 	{
 		// Counters
 		properties: [
 			'counter-reset',
-			'counter-increment'
-		]
-	}
+			'counter-increment',
+		],
+	},
 ];
+
+export default config;
