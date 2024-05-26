@@ -20,6 +20,7 @@ const config = {
 	plugins: [
 		'stylelint-order',
 		'stylelint-declaration-block-no-ignored-properties',
+		'@stylistic/stylelint-plugin',
 	],
 	rules: {
 		'color-no-invalid-hex': true,
