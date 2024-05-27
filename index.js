@@ -237,7 +237,7 @@ const config = {
 		'@stylistic/media-feature-name-case': 'lower',
 		'@stylistic/media-feature-parentheses-space-inside': 'never',
 		'@stylistic/media-feature-range-operator-space-after': 'always',
-		'@stylistic/media-re-range-operator-space-before': 'always',
+		'@stylistic/media-feature-range-operator-space-before': 'always',
 		'@stylistic/media-query-list-comma-newline-after': 'always',
 		'@stylistic/media-query-list-comma-newline-before': 'never-multi-line',
 		'@stylistic/media-query-list-comma-space-before': 'never',
